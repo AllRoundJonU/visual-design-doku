@@ -375,13 +375,70 @@
                     Nulla consequat massa quis enim, wie man in <a href="#section1">Section 1</a> sehen kann</div>
             </div>
         </div>
-    </div>
-    <hr />
+    </div>    <hr />
     <footer class="container">
         Visual Design, <a href="https://www.uni-ulm.de" target="_new">Universit&auml;t Ulm</a>,
         Sommersemester 20??
     </footer>
 
+    <!-- Lightbox Container -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>    <!-- JavaScript für Lightbox -->
+    <script>
+        // Alle Bilder als anklickbar markieren
+        document.addEventListener('DOMContentLoaded', function() {
+            // Alle img Elemente auswählen (außer im Lightbox selbst)
+            const images = document.querySelectorAll('img:not(.lightbox-content)');
+            
+            // Lightbox Elemente
+            const lightbox = document.getElementById('lightbox');
+            const lightboxImg = document.getElementById('lightbox-img');
+            const closeBtn = document.querySelector('.lightbox-close');
+            
+            // Jedem Bild einen Klick-Event-Listener hinzufügen
+            images.forEach(img => {
+                img.classList.add('clickable');
+                img.addEventListener('click', function() {
+                    lightboxImg.src = this.src;
+                    lightbox.style.display = 'flex';
+                    // Kurze Verzögerung für die Animation
+                    setTimeout(() => {
+                        lightbox.classList.add('show');
+                    }, 10);
+                    document.body.style.overflow = 'hidden'; // Scrollen verhindern
+                });
+            });
+            
+            // Lightbox schließen bei Klick auf X
+            closeBtn.addEventListener('click', closeLightbox);
+            
+            // Lightbox schließen bei Klick außerhalb des Bildes
+            lightbox.addEventListener('click', function(e) {
+                if (e.target === lightbox) {
+                    closeLightbox();
+                }
+            });
+            
+            // Lightbox schließen mit Escape-Taste
+            document.addEventListener('keydown', function(e) {
+                if (e.key === 'Escape' && lightbox.style.display === 'flex') {
+                    closeLightbox();
+                }
+            });
+            
+            // Funktion zum Schließen der Lightbox mit Animation
+            function closeLightbox() {
+                lightbox.classList.remove('show');
+                // Warten bis die Animation fertig ist, bevor Display auf none gesetzt wird
+                setTimeout(() => {
+                    lightbox.style.display = 'none';
+                    document.body.style.overflow = ''; // Scrollen wieder erlauben
+                }, 300); // 300ms = Dauer der Animation
+            }
+        });
+    </script>
 </body>
 
 </html>

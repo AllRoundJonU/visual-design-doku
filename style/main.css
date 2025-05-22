@@ -25,6 +25,12 @@ body {
     backdrop-filter: blur(5px);
     align-items: center;
     justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.lightbox.show {
+    opacity: 1;
 }
 
 .lightbox-content {
@@ -33,6 +39,12 @@ body {
     max-height: 90vh;
     margin: auto;
     object-fit: contain;
+    transform: scale(0.9);
+    transition: transform 0.3s ease-in-out;
+}
+
+.lightbox.show .lightbox-content {
+    transform: scale(1);
 }
 
 .lightbox-close {
@@ -45,7 +57,7 @@ body {
     cursor: pointer;
 }
 
-lightbox-close:hover,
+.lightbox-close:hover,
 .lightbox-close:focus {
     color: #d22;
     text-decoration: none;
