@@ -355,3 +355,17 @@ footer {
 .row.no-margin {
     margin-bottom: 0;
 }
+
+.greenbar {
+    background-color: darkgreen;
+    height: 25px;
+    color: white;
+    display: flex;  
+    justify-content: center;
+    align-items: center;     
+}
+
+.greenbar > p {
+    margin: 0;
+    font-size: 1.2rem;
+}
