@@ -1,1 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"><rect x="0.501" y="0.499" width="298.994" height="298.998" style="fill:none;stroke:#000;stroke-width:1px;"/><rect x="0.501" y="0.499" width="298.994" height="298.998" style="fill:#ebebeb;fill-opacity:0;"/><circle cx="55.025" cy="102.363" r="31.628" style="stroke:#000;stroke-opacity:0;stroke-width:4.17px;"/><circle cx="148.203" cy="79.262" r="20" style="stroke:#000;stroke-opacity:0;stroke-width:4.17px;"/><circle cx="243.706" cy="171.665" r="20" style="stroke:#000;stroke-opacity:0;stroke-width:4.17px;"/><circle cx="146.497" cy="195.076" r="10.233" style="stroke:#000;stroke-opacity:0;stroke-width:4.17px;"/><circle cx="194.714" cy="241.122" r="13.178" style="stroke:#000;stroke-opacity:0;stroke-width:4.17px;"/><circle cx="76.73" cy="215.851" r="18.605" style="stroke:#000;stroke-opacity:0;stroke-width:4.17px;"/><circle cx="243.706" cy="40.192" r="8.837" style="stroke:#000;stroke-opacity:0;stroke-width:4.17px;"/><circle cx="42.707" cy="248.224" r="6.696" style="stroke:#000;stroke-opacity:0;stroke-width:4.17px;"/><circle cx="124.017" cy="38.332" r="14.419" style="stroke:#000;stroke-opacity:0;stroke-width:4.17px;"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect x="0.501" y="0.499" width="298.994" height="298.998" style="fill:white;stroke:black;stroke-width:1px;"/>
+    <rect x="0.501" y="0.499" width="298.994" height="298.998" style="fill:rgb(235,235,235);fill-opacity:0;"/>
+    <circle cx="55.025" cy="102.363" r="31.628" style="stroke:black;stroke-opacity:0;stroke-width:4.17px;"/>
+    <circle cx="148.203" cy="79.262" r="20" style="stroke:black;stroke-opacity:0;stroke-width:4.17px;"/>
+    <circle cx="243.706" cy="171.665" r="20" style="stroke:black;stroke-opacity:0;stroke-width:4.17px;"/>
+    <circle cx="146.497" cy="195.076" r="10.233" style="stroke:black;stroke-opacity:0;stroke-width:4.17px;"/>
+    <circle cx="194.714" cy="241.122" r="13.178" style="stroke:black;stroke-opacity:0;stroke-width:4.17px;"/>
+    <circle cx="76.73" cy="215.851" r="18.605" style="stroke:black;stroke-opacity:0;stroke-width:4.17px;"/>
+    <circle cx="243.706" cy="40.192" r="8.837" style="stroke:black;stroke-opacity:0;stroke-width:4.17px;"/>
+    <circle cx="42.707" cy="248.224" r="6.696" style="stroke:black;stroke-opacity:0;stroke-width:4.17px;"/>
+    <circle cx="124.017" cy="38.332" r="14.419" style="stroke:black;stroke-opacity:0;stroke-width:4.17px;"/>
+</svg>
