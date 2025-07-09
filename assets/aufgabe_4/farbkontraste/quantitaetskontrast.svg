@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<svg version="1.1" width="32" height="32" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges">
+<rect x="0" y="0" width="32" height="16" fill="#4EAE33" />
+<rect x="0" y="16" width="16" height="16" fill="#4EAE33" />
+<rect x="16" y="16" width="16" height="16" fill="#9C196D" />
+</svg>
