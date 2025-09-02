@@ -370,3 +370,37 @@ footer {
     margin: 0;
     font-size: 1.2rem;
 }
+
+/* Alert Box */
+.md-alert {
+    --accent: #1f6feb;
+    --bg: #ddf4ff;
+    --border: #54aeff;
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    padding: 12px 16px;
+    margin: 18px auto 0;
+    border: 1px solid var(--border);
+    border-left-width: 6px;
+    border-radius: 6px;
+    background: var(--bg);
+}
+.md-alert--warning {
+    --accent: #d4a72c;
+    --bg: #fff8c5;
+    --border: #eac54f;
+}
+.md-alert-icon {
+    color: var(--accent);
+    flex: 0 0 auto;
+    margin-top: 2px;
+}
+.md-alert-title {
+    font-weight: 600;
+    margin: 0 0 4px;
+    line-height: 1.2;
+}
+.md-alert p {
+    margin: 0;
+}
